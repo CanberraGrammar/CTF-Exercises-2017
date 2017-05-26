@@ -155,4 +155,4 @@ def write_to_file(filename, d):
         f.write(d)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port='5000')
+    app.run(debug=False, host='0.0.0.0', port=5000)
